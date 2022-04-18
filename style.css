@@ -34,17 +34,20 @@
   }
   
   .option_choices {
-    border-block: 3px solid black;
-    background-color: green;
+    border-block: 3px solid white;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     list-style: none;
     padding: 40px;
   }
-
+  
   button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 70%;
     background-color: white
   }
+  
+    .button {
+      text-align: center;
+      padding: 40px;
+    }
