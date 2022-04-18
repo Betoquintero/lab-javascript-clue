@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LAB | JS Clue</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-  <script src="./src/clue.js"></script>
+  <h1>CLUE</h1>
+<div class= "instructions">
+  Please enter your guess with the corresponding options given below
+</div>
+
+  <div class= "user_guess">
+  The killer is <input type = "text" placeholder= "Guess the suspect" id="suspect"/>, and he did it with the <input type = "text" placeholder= "Guess the weapon" id="weapon"/> in the <input type = "text" placeholder= "Guess the room" id="room"/> 
+  </div>
+
+  <button>Submit</button>
+
+  <h2>Options</h2>
+
+  <div class= "options">
+    <ul class= "option_choices">
+      <li class="option_topic">SUSPECTS</li>
+      <li>Jacob</li>
+      <li>Doctor</li>
+      <li>Victor</li>
+      <li>Kasandra</li>
+      <li>Eleanor</li>
+      <li>Jack</li>
+    </ul>
+    <ul class= "option_choices">
+      <li class="option_topic">WEAPONS</li>
+      <li>Rope</li>
+      <li>Knife</li>
+      <li>Candlestick</li>
+      <li>Dumbbell</li>
+      <li>Poison</li>
+      <li>Axe</li>
+      <li>Bat</li>
+      <li>Trophy</li>
+      <li>Pistol</li>
+    </ul>
+    <ul class= "option_choices">
+      <li class="option_topic">ROOMS</li>
+      <li>Dinning Room</li>
+      <li>Conservatory</li>
+      <li>Kitchen</li>
+      <li>Study</li>
+      <li>Library</li>
+      <li>Billiard Room</li>
+      <li>Lounge</li>
+      <li>Ballroom</li>
+      <li>Hall</li>
+      <li>Spa</li>
+      <li>Living Room</li>
+      <li>Observatory</li>
+      <li>Theater</li>
+      <li>Guest House</li>
+      <li>Patio</li>    
+    </ul>
+    
+  </div>
+  <script src= "src/clue.js"></script> 
 </body>
+
 </html>
